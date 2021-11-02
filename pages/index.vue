@@ -1,7 +1,7 @@
 <template>
   <section class="py-7 front-banner">
     <div class="container px-4 text-center">
-      <nuxt-link to="/about" class="full-radius d-inline-flex bg-primary bg-opacity-25 overflow-hidden">
+      <nuxt-link to="/about" class="full-radius d-inline-flex meee bg-primary bg-opacity-25 overflow-hidden">
         <img src="~/assets/funny-boy.png" alt="" style="max-width: 350px">
       </nuxt-link>
       <h1 class="mt-3">Hey! I'm Yanuar Aditia.</h1>
@@ -32,3 +32,15 @@ export default {
   },
 }
 </script>
+<style lang="scss" scoped>
+.meee {
+  img {
+    transition: all .2s ease-in-out;
+  }
+  &:hover {
+    img {
+      transform: scale(1.15) translateY(20px) rotate(-2deg);
+    }
+  }
+}
+</style>

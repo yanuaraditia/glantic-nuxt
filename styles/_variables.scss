@@ -105,21 +105,6 @@ $spacers: (
     border-radius: $border-radius;
   }
 }
-.the-wrapper {
-  &:before {
-    content: "";
-    width: 650px;
-    height: 650px;
-    background-image: radial-gradient(rgba($primary,.7),rgba(0,0,0,0));
-    position: absolute;
-    border-radius: 100%;
-    filter: blur(40px);
-    z-index: -1;
-    top: -250px;
-    left: -250px;
-  }
-}
-
 .main-radius {
   border-radius: $border-radius;
 }
@@ -134,7 +119,7 @@ $spacers: (
   top: 0;
   z-index: 9999;
   backdrop-filter: blur(12px) saturate(50%);
-  background: rgba(#fff, .2);
+  background: rgba(#fff, .75);
   border-bottom: 1px solid rgba(#000,.05);
   ~ .page-wrapper {
     margin-top: 4rem;
