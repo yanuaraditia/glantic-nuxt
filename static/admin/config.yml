@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  repo: yanuaraditia/glantic-nuxt
   branch: main # Branch to update (optional; defaults to master)
   base_url: https://glantic-nuxt.vercel.app
 
