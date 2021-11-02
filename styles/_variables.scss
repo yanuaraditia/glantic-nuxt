@@ -1,15 +1,74 @@
 $font-family-sans-serif:      "Inter",system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 
+// Colors
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+
+$blue:    #0d6efd !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #dc3545 !default;
+$orange:  #f76707 !default;
+$yellow:  #ffc107 !default;
+$green:   #198754 !default;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+
+$secondary: $orange;
+$black: #000;
+$border-radius: .35rem;
+$dark: $black;
+
+$primary: #55e6a5 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         #f3f5f7 !default;
+$dark:          $gray-900 !default;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary":    $primary,
+  "primary-light": lighten($primary, 30%),
+  "primary-dark": darken($primary, 30%),
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "orange":     $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "default":    #dadce0,
+  "light-2": darken($light, 5%),
+  "dark-primary": darken($primary, 20%),
+  "facebook": rgb(59, 89, 152),
+  "twitter": rgb(29, 161, 242),
+  "whatsapp": rgb(77, 194, 71)
+) !default;
+
 $headings-font-weight: 700!default;
 $lead-font-weight: 400 !default;
 $h1-font-size: 3.25rem !default;
 
 $border-radius: .45rem !default;
-$primary: #55e6a5 !default;
 
 $btn-font-weight: 500 !default;
 $link-decoration: none !default;
+
+$navbar-light-color: #000 !default;
+$navbar-nav-link-padding-x: 1.5rem !default;
 
 $spacer: 1rem !default;
 $spacers: (
@@ -58,4 +117,8 @@ $spacers: (
     top: -250px;
     left: -250px;
   }
+}
+
+.main-radius {
+  border-radius: $border-radius;
 }

@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light py-lg-3">
     <div class="container px-4">
-      <nuxt-link class="navbar-brand" to="/">@yanuaraditia</nuxt-link>
+      <nuxt-link class="navbar-brand fw-bold text-primary-dark" to="/">@yanuaraditia</nuxt-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
