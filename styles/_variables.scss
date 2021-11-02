@@ -66,6 +66,7 @@ $border-radius: .45rem !default;
 
 $btn-font-weight: 500 !default;
 $link-decoration: none !default;
+$link-color: darken($primary, 10%);
 
 $navbar-light-color: #000 !default;
 $navbar-nav-link-padding-x: 1.5rem !default;
@@ -84,7 +85,7 @@ $spacers: (
 ) !default;
 
 .full-radius {
-  border-radius: 100px !important;
+  border-radius: 100000px !important;
 }
 
 .link-top {
@@ -104,12 +105,12 @@ $spacers: (
     border-radius: $border-radius;
   }
 }
-.front-banner {
+.the-wrapper {
   &:before {
     content: "";
     width: 650px;
     height: 650px;
-    background-image: radial-gradient($primary,rgba(0,0,0,0));
+    background-image: radial-gradient(rgba($primary,.7),rgba(0,0,0,0));
     position: absolute;
     border-radius: 100%;
     filter: blur(40px);
@@ -121,4 +122,21 @@ $spacers: (
 
 .main-radius {
   border-radius: $border-radius;
+}
+
+.fw-medium {
+  font-weight: 500!important;
+}
+.navbar {
+  position: fixed!important;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+  backdrop-filter: blur(12px) saturate(50%);
+  background: rgba(#fff, .2);
+  border-bottom: 1px solid rgba(#000,.05);
+  ~ .page-wrapper {
+    margin-top: 4rem;
+  }
 }

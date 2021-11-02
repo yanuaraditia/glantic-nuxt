@@ -1,10 +1,15 @@
 <template>
   <section class="py-7 front-banner">
-    <div class="container px-4">
-      <h1>I'm Yanuar, a backend developer based in Yogyakarta, Indonesia. Specialized on creating awesome system ecosystems both web and mobile devices.</h1>
-      <p class="lead">I am specialized in designing meaningful and intuitives systems for web and mobile devices. <br> Currently working at logistic aggregator startup
-        <a href="//kiriminaja.com">KiriminAja</a>
-      </p>
+    <div class="container px-4 text-center">
+      <nuxt-link to="/about" class="full-radius d-inline-flex bg-primary bg-opacity-25 overflow-hidden">
+        <img src="~/assets/funny-boy.png" alt="" style="max-width: 350px">
+      </nuxt-link>
+      <h1 class="mt-3">Hey! I'm Yanuar Aditia.</h1>
+      <div class="mx-auto px-lg-5" style="max-width: 1200px">
+        <p class="lead">I am specialized in designing meaningful and intuitives systems for web and mobile devices. <br> Currently working at logistic aggregator startup
+          <a href="//kiriminaja.com">KiriminAja</a>
+        </p>
+      </div>
       <div class="mt-3">
         <nuxt-link to="/about" class="btn btn-lg btn-primary-light text-primary-dark full-radius px-lg-4">
           About me
@@ -12,7 +17,6 @@
             <path d="M15.0378 6.34326L13.6269 7.76078L16.8972 11.0157L3.29211 11.0294L3.29413 13.0294L16.8619 13.0158L13.6467 16.246L15.0643 17.6569L20.7079 11.9869L15.0378 6.34326Z" fill="currentColor"/>
           </svg>
         </nuxt-link>
-        <nuxt-link to="/blogs" class="btn btn-lg btn-link full-radius px-lg-4">My Blogs</nuxt-link>
       </div>
     </div>
   </section>

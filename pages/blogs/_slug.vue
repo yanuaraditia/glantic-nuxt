@@ -1,8 +1,10 @@
 <template>
   <section class="py-5 reader-section">
     <div class="container px-4">
-      <h2>{{ post.title }}</h2>
-      <nuxt-content :document="post" />
+      <h1>{{ post.title }}</h1>
+      <div class="mt-5">
+        <nuxt-content :document="post" />
+      </div>
     </div>
   </section>
 </template>

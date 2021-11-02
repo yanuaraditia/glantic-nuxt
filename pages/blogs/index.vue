@@ -2,7 +2,7 @@
   <section class="py-7">
     <div class="container px-4">
       <h1>All Posts</h1>
-      <div class="mt-3">
+      <div class="mt-5">
         <div class="link-top" v-for="post of posts" :key="post.slug">
           <div class="row">
             <div class="col-lg-2 pt-lg-2">
