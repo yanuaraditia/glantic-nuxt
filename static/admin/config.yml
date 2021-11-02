@@ -2,7 +2,6 @@ backend:
   name: github
   repo: yanuaraditia/glantic-nuxt
   branch: main # Branch to update (optional; defaults to master)
-  base_url: "https://glantic-nuxt.vercel.app"
 
 media_folder: static/img
 public_folder: /img
