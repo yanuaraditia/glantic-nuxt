@@ -1,8 +1,10 @@
 <template>
-  <div>
-    <h2>{{ post.title }}</h2>
-    <nuxt-content :document="post" />
-  </div>
+  <section class="py-5 reader-section">
+    <div class="container px-4">
+      <h2>{{ post.title }}</h2>
+      <nuxt-content :document="post" />
+    </div>
+  </section>
 </template>
 
 <script>
@@ -20,5 +22,10 @@ export default {
       post,
     };
   },
+  head() {
+    return {
+      title: this.post.title
+    }
+  }
 };
 </script>

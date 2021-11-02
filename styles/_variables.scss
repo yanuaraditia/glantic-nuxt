@@ -1,0 +1,47 @@
+$font-family-sans-serif:      "Inter",system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+$headings-font-weight: 700!default;
+$lead-font-weight: 400 !default;
+$h1-font-size: 3.25rem !default;
+
+$border-radius: .45rem !default;
+$primary: #55e6a5 !default;
+
+$btn-font-weight: 500 !default;
+$link-decoration: none !default;
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 3.5,
+  7: $spacer * 4,
+  8: $spacer * 4.5,
+) !default;
+
+.full-radius {
+  border-radius: 100px !important;
+}
+
+.link-top {
+  position: relative;
+  a {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+}
+.reader-section {
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: $border-radius;
+  }
+}
