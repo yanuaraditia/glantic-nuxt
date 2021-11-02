@@ -1,8 +1,6 @@
 ---
-title: Test Blog Using Netlify CMS
+title: Setahun Bareng KiriminAja
 date: 2021-11-02T08:49:25.973Z
-description: Test Blog Using Netlify CMS
+description: Gabung di KiriminAja jauh sebelum perusahaan ini ada
 ---
-Test Blog Using Netlify CMS
-
-![About](/img/about-picture.jpg "TEST")
+Gabung di KiriminAja jauh sebelum perusahaan ini ada
