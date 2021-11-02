@@ -1,6 +1,6 @@
 <template>
   <section class="py-7">
-    <div class="container px-4">
+    <div class="container px-3 px-lg-4">
       <h1>About Me</h1>
       <img src="~/assets/my-team.png" class="img-fluid main-radius mt-5" alt="">
       <p class="mt-5 lead">Hi there! My name is <span class="fw-medium">Yanuar Aditia</span>, and Yanuar in short.</p>

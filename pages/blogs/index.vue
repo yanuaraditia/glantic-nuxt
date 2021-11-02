@@ -1,6 +1,6 @@
 <template>
   <section class="py-7">
-    <div class="container px-4">
+    <div class="container px-3 px-lg-4">
       <h1>All Posts</h1>
       <div class="mt-5">
         <div class="link-top" v-for="post of posts" :key="post.slug">
