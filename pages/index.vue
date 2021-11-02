@@ -28,20 +28,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss">
-.front-banner {
-  &:before {
-    content: "";
-    width: 650px;
-    height: 650px;
-    background-image: radial-gradient(var(--bs-primary),transparent);
-    position: absolute;
-    border-radius: 100%;
-    filter: blur(40px);
-    z-index: -1;
-    top: -250px;
-    left: -250px;
-  }
-}
-</style>

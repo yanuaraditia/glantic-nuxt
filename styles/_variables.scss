@@ -45,3 +45,17 @@ $spacers: (
     border-radius: $border-radius;
   }
 }
+.front-banner {
+  &:before {
+    content: "";
+    width: 650px;
+    height: 650px;
+    background-image: radial-gradient($primary,rgba(0,0,0,0));
+    position: absolute;
+    border-radius: 100%;
+    filter: blur(40px);
+    z-index: -1;
+    top: -250px;
+    left: -250px;
+  }
+}
