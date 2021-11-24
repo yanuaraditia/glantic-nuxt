@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light py-lg-3" v-bind:class="showNav ? 'show' : 'hide'">
+  <nav class="navbar navbar-expand-lg navbar-dark py-lg-3" v-bind:class="showNav ? 'show' : 'hide'">
     <div class="container px-3 px-lg-4">
       <nuxt-link class="navbar-brand fw-medium" to="/">
         <span @click="resetNav">
@@ -20,6 +20,9 @@
           </li>
           <li class="nav-item" @click="resetNav">
             <nuxt-link class="nav-link" aria-current="page" to="/blogs">Blog</nuxt-link>
+          </li>
+          <li class="nav-item" @click="resetNav">
+            <nuxt-link class="nav-link" aria-current="page" to="/projects">Project</nuxt-link>
           </li>
         </ul>
       </div>

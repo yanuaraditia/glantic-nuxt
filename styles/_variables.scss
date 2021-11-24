@@ -60,7 +60,10 @@ $theme-colors: (
 
 $headings-font-weight: 700!default;
 $lead-font-weight: 400 !default;
-$h1-font-size: 3.25rem !default;
+$h1-font-size: 3rem !default;
+
+$body-bg: rgb(26, 32, 44) !default;
+$body-color: rgb(226, 232, 240) !default;
 
 $border-radius: .45rem !default;
 
@@ -119,8 +122,8 @@ $spacers: (
   top: 0;
   z-index: 9999;
   backdrop-filter: blur(12px) saturate(50%);
-  background: rgba(#fff, .75);
-  border-bottom: 1px solid rgba(#000,.05);
+  background: rgba($body-bg, .75);
+  border-bottom: 1px solid rgb(45, 55, 72);
   ~ .page-wrapper {
     margin-top: 4rem;
   }
@@ -145,4 +148,7 @@ $navbar-toggler-padding-x: 0.25rem !default;
     height: 100vh;
     align-items: start;
   }
+}
+.nuxt-link-exact-active:not(.navbar-brand) {
+  color: $primary!important;
 }

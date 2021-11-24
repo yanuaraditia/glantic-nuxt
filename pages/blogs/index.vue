@@ -1,7 +1,8 @@
 <template>
   <section class="py-7">
     <div class="container px-3 px-lg-4">
-      <h1>All Posts</h1>
+      <h1>Blog posts</h1>
+      <p class="lead">Sometimes I write about web development, other times about random interesting stuff.</p>
       <div class="mt-5">
         <div class="link-top" v-for="post of posts" :key="post.slug">
           <div class="row">
