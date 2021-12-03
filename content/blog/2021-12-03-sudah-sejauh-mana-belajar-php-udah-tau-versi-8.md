@@ -3,7 +3,7 @@ title: Sudah sejauh mana belajar PHP? Udah tau versi 8???
 date: 2021-12-03T15:27:48.089Z
 description: PHP 8, inovasi revolusioner si pak tua yang tak mau kalah sama yang lebih muda
 ---
-Sm25 November 2021, yap beberapa hari sebelum artikel ini dibuat versi baru dari PHP (Hypertext Preprocessor) baru saja dirilis yaitu ke 8.1.0, duh padahal existing project masih pake 7.3, 7.4 😒. Yaaa begitulah teknologi, kalo ngga susah payah buat update ya bakal ketinggalan, but eits ngga ada kata terlambat guys, masih ada waktu buaat belajar. Buat yang masih pake php 7.x atau dibawahnya apa aja sih yang baru di versi 8 dan 8.1?? Berikut aku jelasin sedikit dari sudut pandang seorang developer PHP 😂
+25 November 2021, yap beberapa hari sebelum artikel ini dibuat versi baru dari PHP (Hypertext Preprocessor) baru saja dirilis yaitu ke 8.1.0, duh padahal existing project masih pake 7.3, 7.4 😒. Yaaa begitulah teknologi, kalo ngga susah payah buat update ya bakal ketinggalan, but eits ngga ada kata terlambat guys, masih ada waktu buaat belajar. Buat yang masih pake php 7.x atau dibawahnya apa aja sih yang baru di versi 8 dan 8.1?? Berikut aku jelasin sedikit dari sudut pandang seorang developer PHP 😂
 
 #### Named Arguments
 
@@ -159,7 +159,7 @@ Yap kadang atau sering, ngga sengaja override property yang niatnya ngga bisa di
 
 #### Pure Intersection Types
 
-Setelah sebelumnya ada union types di versi 8 diperkenalkan, di 8.1 ada yang baru namanya Pure Intersection Types, apa sih? Ya dimana sebuah argument harus merupakan sebuah instance dari lebih dari satu constraints dalam satu waktu. Misalnya `$value` harus merupakan bagian dari ```Iterator``` dan ```Countable``` , ngga boleh salah satu aja. Di versi 8 kebawah kita harus set dulu salah satu constraints baru kita cek dengan expression setelahnya, tapi cukup memakan waktu nah sekarang udah ngga lagi cukup gabungkan 2 constraints pake simbol`&`
+Setelah sebelumnya ada union types di versi 8 diperkenalkan, di 8.1 ada yang baru namanya Pure Intersection Types, apa sih? Ya dimana sebuah argument harus merupakan sebuah instance dari lebih dari satu constraints dalam satu waktu. Misalnya `$value` harus merupakan bagian dari `Iterator` dan `Countable` , ngga boleh salah satu aja. Di versi 8 kebawah kita harus set dulu salah satu constraints baru kita cek dengan expression setelahnya, tapi cukup memakan waktu nah sekarang udah ngga lagi cukup gabungkan 2 constraints pake simbol`&`
 
 ```php
 function count_and_iterate(Iterator&Countable $value) {
