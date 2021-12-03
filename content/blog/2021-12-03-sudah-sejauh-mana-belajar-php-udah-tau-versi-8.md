@@ -159,7 +159,7 @@ Yap kadang atau sering, ngga sengaja override property yang niatnya ngga bisa di
 
 #### Pure Intersection Types
 
-Setelah sebelumnya ada union types di versi 8 diperkenalkan, di 8.1 ada yang baru namanya Pure Intersection Types, apa sih? Ya dimana sebuah argument harus merupakan sebuah instance dari lebih dari satu constraints dalam satu waktu. Misalnya `$value` harus merupakan bagian dari`Iterator`dan`Countable`, ngga boleh salah satu aja. Di versi 8 kebawah kita harus set dulu salah satu constraints baru kita cek dengan expression setelahnya, tapi cukup memakan waktu nah sekarang udah ngga lagi cukup gabungkan 2 constraints pake simbol`&`
+Setelah sebelumnya ada union types di versi 8 diperkenalkan, di 8.1 ada yang baru namanya Pure Intersection Types, apa sih? Ya dimana sebuah argument harus merupakan sebuah instance dari lebih dari satu constraints dalam satu waktu. Misalnya `$value` harus merupakan bagian dari ```Iterator``` dan ```Countable``` , ngga boleh salah satu aja. Di versi 8 kebawah kita harus set dulu salah satu constraints baru kita cek dengan expression setelahnya, tapi cukup memakan waktu nah sekarang udah ngga lagi cukup gabungkan 2 constraints pake simbol`&`
 
 ```php
 function count_and_iterate(Iterator&Countable $value) {
