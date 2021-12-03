@@ -99,7 +99,13 @@ export default {
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
+  content: {
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-material-dark.css'
+      }
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
@@ -107,5 +113,5 @@ export default {
   sitemap: {
     hostname: 'https://www.yan.my.id',
     gzip: true,
-  }
+  },
 }

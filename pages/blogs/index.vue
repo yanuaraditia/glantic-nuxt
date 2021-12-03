@@ -4,10 +4,10 @@
       <h1>Blog posts</h1>
       <p class="lead">Sometimes I write about web development, other times about random interesting stuff.</p>
       <div class="mt-5">
-        <div class="link-top" v-for="post of posts" :key="post.slug">
+        <div class="link-top mb-4" v-for="post of posts" :key="post.slug">
           <div class="row">
             <div class="col-lg-2 pt-lg-2">
-              <span class="subheader fw-bold text-muted" v-html="toString(post.createdAt)"></span>
+              <span class="subheader fw-bold text-muted" v-html="toString(post.date)"></span>
             </div>
             <div class="col-lg">
               <h3 class="card-title" v-html="post.title"></h3>
@@ -24,7 +24,9 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const posts = await $content("blog").fetch();
+    const posts = await $content("blog")
+      .sortBy('date','desc')
+      .fetch();
 
     return {
       posts,
