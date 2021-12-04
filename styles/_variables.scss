@@ -152,3 +152,6 @@ $navbar-toggler-padding-x: 0.25rem !default;
 .nuxt-link-exact-active:not(.navbar-brand) {
   color: $primary!important;
 }
+pre[class*="language-"] {
+  border-radius: $border-radius!important;
+}

@@ -1,6 +1,6 @@
 <template>
   <section class="py-7 front-banner">
-    <div class="container px-3 px-lg-4 text-center">
+    <div class="container px-3 px-lg-4 text-lg-center">
       <nuxt-link to="/about" class="full-radius d-inline-flex meee bg-primary bg-opacity-10 overflow-hidden">
         <img src="~/assets/funny-boy.png" alt="" style="max-width: 350px">
       </nuxt-link>
