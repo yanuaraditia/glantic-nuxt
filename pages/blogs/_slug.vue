@@ -1,15 +1,17 @@
 <template>
   <section class="py-5 reader-section">
     <div class="container px-3 px-lg-4">
-      <div class="mx-lg-auto" style="max-width: 768px">
-        <h1>{{ post.title }}</h1>
-        <div class="my-3 text-muted">
-          <span v-html="toString(post.date)"></span>
-          <span>•</span>
-          <span>{{reading_time}} minute read</span>
-        </div>
-        <div id="article">
-          <nuxt-content :document="post" />
+      <div class="row">
+        <div class="col-lg-8 mx-lg-auto">
+          <h1 class="h2">{{ post.title }}</h1>
+          <div class="my-3 text-muted">
+            <span v-html="toString(post.date)"></span>
+            <span>•</span>
+            <span>{{reading_time}} minute read</span>
+          </div>
+          <div id="article">
+            <nuxt-content :document="post" />
+          </div>
         </div>
       </div>
     </div>
@@ -51,7 +53,7 @@ export default {
   methods: {
     toString(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('id', options)
+      return new Date(date).toLocaleDateString('en', options)
     }
   },
 };

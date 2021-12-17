@@ -1,8 +1,8 @@
 <template>
   <section class="py-7">
     <div class="container px-3 px-lg-4">
-      <h1>Creations and projects</h1>
-      <p class="lead">Here are some of my past works from personal projects and open source ones.</p>
+      <h1 class="h2">Creations and projects</h1>
+      <p>Here are some of my past works from personal projects and open source ones.</p>
       <div class="mt-5">
         <div class="row project g-3">
           <div class="col-lg-6" v-for="project of projects" :key="project.slug">

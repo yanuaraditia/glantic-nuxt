@@ -1,22 +1,28 @@
 <template>
   <section class="py-7 front-banner">
     <div class="container px-3 px-lg-4 text-lg-center">
-      <nuxt-link to="/about" class="full-radius d-inline-flex meee bg-primary bg-opacity-10 overflow-hidden">
-        <img src="~/assets/funny-boy.png" alt="" style="max-width: 350px">
+      <nuxt-link to="/about" class="full-radius d-inline-flex meee bg-black overflow-hidden">
+        <img src="~/assets/group-illustrations-2.png" alt="darth vader" style="max-width: 350px">
       </nuxt-link>
-      <h1 class="mt-3">Hey! I'm Yanuar Aditia.</h1>
+      <h1 class="mt-3 h2">Hey! I'm Yanuar Aditia.</h1>
       <div class="mx-auto px-lg-5" style="max-width: 1200px">
-        <p class="lead">I am specialized in designing meaningful and intuitives systems for web and mobile devices. <br> Currently working at logistic aggregator startup
+        <p class="">I am specialized in designing meaningful and intuitives systems for web and mobile devices. <br> Currently working at logistic aggregator startup
           <a href="//kiriminaja.com">KiriminAja</a>
         </p>
       </div>
       <div class="mt-3">
-        <nuxt-link to="/about" class="btn btn-lg btn-primary bg-primary text-light border-0 bg-opacity-10 full-radius px-lg-4">
-          About me
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M15.0378 6.34326L13.6269 7.76078L16.8972 11.0157L3.29211 11.0294L3.29413 13.0294L16.8619 13.0158L13.6467 16.246L15.0643 17.6569L20.7079 11.9869L15.0378 6.34326Z" fill="currentColor"/>
-          </svg>
-        </nuxt-link>
+        <a href="//linkedin.com/in/yanuaraditia" class="bg-primary bg-opacity-10 p-2 full-radius d-inline-flex">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="4" y="4" width="16" height="16" rx="2" /><line x1="8" y1="11" x2="8" y2="16" /><line x1="8" y1="8" x2="8" y2="8.01" /><line x1="12" y1="16" x2="12" y2="11" /><path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg>
+        </a>
+        <a href="//github.com/yanuaraditia" class="bg-primary bg-opacity-10 p-2 full-radius d-inline-flex">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
+        </a>
+        <a href="//gitlab.com/ngal0r" class="bg-primary bg-opacity-10 p-2 full-radius d-inline-flex">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M21 14l-9 7l-9 -7l3 -11l3 7h6l3 -7z" /></svg>
+        </a>
+        <a href="//twitter.com/tehbotol_sisri" class="bg-primary bg-opacity-10 p-2 full-radius d-inline-flex">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" /></svg>
+        </a>
       </div>
     </div>
   </section>
