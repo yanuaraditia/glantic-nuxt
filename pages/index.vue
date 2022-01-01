@@ -1,12 +1,12 @@
 <template>
   <section class="py-7 front-banner">
     <div class="container px-3 px-lg-4 text-lg-center">
-      <nuxt-link to="/about" class="full-radius d-inline-flex meee bg-black overflow-hidden">
+      <nuxt-link to="/about" class="full-radius d-inline-flex meee overflow-hidden" v-bind:class="[($nuxt.$colorMode.preference === 'dark' ? 'bg-black' : 'bg-light')]">
         <img src="~/assets/group-illustrations-2.png" alt="darth vader" style="max-width: 350px">
       </nuxt-link>
-      <h1 class="mt-3 h2">Hey! I'm Yanuar Aditia.</h1>
-      <div class="mx-auto px-lg-5" style="max-width: 1200px">
-        <p class="">I am specialized in designing meaningful and intuitives systems for web and mobile devices. <br> Currently working at logistic aggregator startup
+      <h1 class="mt-3 h1">Halo! I'm Yanuar Aditia.</h1>
+      <div class="mx-auto px-lg-5" style="max-width: 900px">
+        <p class="lead">I am specialized in designing meaningful and intuitives systems for web and mobile devices. Currently working at logistic aggregator startup
           <a href="//kiriminaja.com">KiriminAja</a>
         </p>
       </div>

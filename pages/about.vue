@@ -1,6 +1,6 @@
 <template>
-  <section class="pb-7 pt-4">
-    <div class="container px-3 px-lg-4">
+  <section class="pb-7 pt-0">
+    <div class="container px-3 pb-lg-4 pt-lg-0">
       <img src="~/assets/my-team.png" class="img-fluid main-radius mt-5" alt="">
       <p class="mt-5 lead">Hi there! My name is <span class="fw-medium">Yanuar Aditia</span>, and Yanuar in short.</p>
       <p class="lead">Born, raised in <a href="//kebumenkab.go.id">Kebumen, Indonesia</a>. Currently living in <a href="//jogjaprov.go.id">Yogyakarta, Indonesia</a> and working as backend web dev work for a startup based

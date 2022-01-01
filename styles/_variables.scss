@@ -1,5 +1,5 @@
-$font-family-sans-serif:      "Inter",system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-sans-serif:      "DM Sans",system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-monospace:       "Fira Code",SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 
 // Colors
 $gray-100: #f8f9fa !default;
@@ -28,7 +28,7 @@ $black: #000;
 $border-radius: .35rem;
 $dark: $black;
 
-$primary: #ce93d8 !default;
+$primary: #6f2fab !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -121,8 +121,7 @@ $spacers: (
   right: 0;
   top: 0;
   z-index: 9999;
-  background: $body-bg;
-  border-bottom: 1px solid lighten($body-bg, 10%);
+  background: var(--bs-body-bg);
   ~ .page-wrapper {
     margin-top: 4rem;
   }
@@ -160,7 +159,7 @@ $navbar-toggler-padding-x: 0.25rem !default;
   }
 }
 .nuxt-link-exact-active:not(.navbar-brand) {
-  color: $primary!important;
+  color: var(--bs-primary-rgb)!important;
 }
 pre[class*="language-"] {
   border-radius: $border-radius!important;
