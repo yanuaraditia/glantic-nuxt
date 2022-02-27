@@ -10,8 +10,8 @@
 <script>
 export default {
   mounted() {
-    if (!this.$nuxt.$colorMode.preference) {
-      this.$nuxt.$colorMode.preference = "dark";
+    if (this.$nuxt.$colorMode.preference === 'system') {
+      this.$nuxt.$colorMode.preference = 'dark'
     }
   }
 }
