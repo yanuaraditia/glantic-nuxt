@@ -1,4 +1,5 @@
 @import "variables";
+@import "blog";
 @import 'node_modules/bootstrap/scss/bootstrap';
 html {
   -webkit-font-smoothing: antialiased;
@@ -15,4 +16,7 @@ html {
 .light-mode {
   --bs-body-bg: #fff;
   --bs-body-color: #000;
+}
+.nuxt-link-exact-active.nav-link {
+  color: $primary!important;
 }

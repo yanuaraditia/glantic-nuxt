@@ -1,8 +1,11 @@
 <template>
   <section class="pb-7 pt-0">
-    <div class="container px-3 pb-lg-4 pt-lg-0">
-      <img src="~/assets/my-team.png" class="img-fluid main-radius mt-5" alt="">
-      <p class="mt-5 lead">Hi there! My name is <span class="fw-medium">Yanuar Aditia</span>, and Yanuar in short.</p>
+    <div class="container px-3 px-lg-4">
+      <img src="~/assets/teams/townhall.jpg" class="img-fluid w-100 main-radius mt-3" alt="">
+      <div class="py-2 mt-4">
+        <h1>Bigger Better Faster</h1>
+      </div>
+      <p class="lead">Hi there! My name is <span class="fw-medium">Yanuar Aditia</span>, and Yanuar in short.</p>
       <p class="lead">Born, raised in <a href="//kebumenkab.go.id">Kebumen, Indonesia</a>. Currently living in <a href="//jogjaprov.go.id">Yogyakarta, Indonesia</a> and working as backend web dev work for a startup based
         <a href="//kiriminaja.com">KiriminAja</a> and finished my bachelor's degree in Informatics on Software Engineering at <a
           href="//amikom.ac.id">Universitas Amikom Yogyakarta</a>.
@@ -14,60 +17,62 @@
       <div class="my-5">
         <div class="row">
           <div class="col-6 col-lg-3">
-            <h4>Languages</h4>
-            <ul class="list-unstyled stratum">
-              <li>CSS & HTML</li>
-              <li>JavaScript</li>
-              <li>TypeScript</li>
-              <li>PHP</li>
-            </ul>
+            <div class="card" v-bind:class="[($nuxt.$colorMode.preference === 'dark' ? 'bg-dark' : 'bg-light')]">
+              <div class="card-body p-lg-4">
+                <h4 class="h5">Languages</h4>
+                <ul class="ps-3 stratum m-0">
+                  <li>PHP</li>
+                  <li>CSS</li>
+                  <li>HTML</li>
+                  <li>JavaScript</li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div class="col-6 col-lg-3">
-            <h4>Frontend</h4>
-            <ul class="list-unstyled stratum">
-              <li>Bootstrap</li>
-              <li>Bulma</li>
-              <li>Next.js</li>
-              <li>Nuxt.js</li>
-              <li>Styled Components</li>
-            </ul>
+            <div class="card" v-bind:class="[($nuxt.$colorMode.preference === 'dark' ? 'bg-dark' : 'bg-light')]">
+              <div class="card-body p-lg-4">
+                <h4 class="h5">Backend</h4>
+                <ul class="ps-3 stratum m-0">
+                  <li>Laravel</li>
+                  <li>MySQL</li>
+                  <li>RestAPI</li>
+                  <li>Node.js</li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div class="col-6 col-lg-3">
-            <h4>Backend</h4>
-            <ul class="list-unstyled stratum">
-              <li>MySQL</li>
-              <li>RestAPI</li>
-              <li>Node.js</li>
-              <li>Nginx</li>
-            </ul>
+            <div class="card" v-bind:class="[($nuxt.$colorMode.preference === 'dark' ? 'bg-dark' : 'bg-light')]">
+              <div class="card-body p-lg-4">
+                <h4 class="h5">Tools of the trade</h4>
+                <ul class="ps-3 stratum m-0">
+                  <li>PhpStorm</li>
+                  <li>Jira & Confluence</li>
+                  <li>Git</li>
+                  <li>Insomnia</li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div class="col-6 col-lg-3">
-            <h4>Tools of the trade</h4>
-            <ul class="list-unstyled stratum">
-              <li>PhpStorm</li>
-              <li>Figma</li>
-              <li>Git</li>
-              <li>Postman</li>
-              <li>WebStorm</li>
-            </ul>
-          </div>
-          <div class="col-6 col-lg-3">
-            <h4>Infrastructure</h4>
-            <ul class="list-unstyled stratum">
-              <li>Cloudflare</li>
-              <li>Google Cloud Platform</li>
-              <li>Amazon Web Services</li>
-              <li>Netlify</li>
-              <li>Vercel</li>
-              <li>Github Workflows</li>
-            </ul>
+            <div class="card" v-bind:class="[($nuxt.$colorMode.preference === 'dark' ? 'bg-dark' : 'bg-light')]">
+              <div class="card-body p-lg-4">
+                <h4 class="h5">Front-End</h4>
+                <ul class="ps-3 stratum m-0">
+                  <li>Bootstrap</li>
+                  <li>Nuxt.js</li>
+                  <li>Styled Components</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <p class="lead">You can reach out via email at <a href="mailto:me@yan.my.id">me@yan.my.id</a>, or via socials below:</p>
+      <p class="lead">You can reach out via email at <a href="mailto:yanuar@kiriminaja.com">yanuar@kiriminaja.com</a>, or via socials below:</p>
       <ul class="lead">
-        <li>Github — <a href="//github.com/yanuaraditia">github.com/yanuaraditia</a></li>
-        <li>Facebook — <a href="//facebook.com/yanuaraditia99">facebook.com/yanuaraditia99</a></li>
+        <li>Twitter — <a href="//twitter.com/yanuaraditiaa">twitter.com/yanuaraditiaa</a></li>
+        <li>Telegram — <a href="//t.me/yanuaraditia">t.me/yanuaraditia</a></li>
         <li>LinkedIn — <a href="//linkedin.com/in/yanuaraditia">linkedin.com/in/yanuaraditia</a></li>
       </ul>
     </div>
