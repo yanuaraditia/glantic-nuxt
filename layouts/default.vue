@@ -7,3 +7,12 @@
     <MyFooter></MyFooter>
   </div>
 </template>
+<script>
+export default {
+  mounted() {
+    if (!this.$nuxt.$colorMode.preference) {
+      this.$nuxt.$colorMode.preference = "dark";
+    }
+  }
+}
+</script>
