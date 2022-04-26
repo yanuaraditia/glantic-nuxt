@@ -1,6 +1,6 @@
 ---
-title: "Clandys"
-description: "Migrasi dan improve CMS yang sudah ada ke yang lebih optimal"
+title: "Clandys Store Management"
+description: "Migrate and maintain outdated system from voyager into native Laravel code"
 url: "https://storeclandys.com"
 url_text: "storeclandys.com"
 img: "/img/ss-clandys.png"

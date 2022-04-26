@@ -22,7 +22,8 @@
       </ul>
       <h4>Currently Using</h4>
       <ul class="lead mb-5">
-        <li class="mb-1"><strong>Notebook:</strong> <a href="https://www.apple.com/id/macbook-pro-13/">MacBook Pro Late 2020</a></li>
+        <li class="mb-1"><strong>Notebook:</strong> <a href="https://www.apple.com/id/macbook-pro-13/">MacBook Pro 2020</a> +
+          <a href="https://www.apple.com/id/macos/monterey/">MacOS Monterey</a></li>
         <li class="mb-1"><strong>Hosting:</strong> <a href="https://cloud.google.com/">Google Cloud</a>, <a href="https://www.netlify.com/">Netlify</a>, <a href="https://vercel.com/">Vercel</a></li>
         <li class="mb-1"><strong>IDE:</strong> <a href="https://www.jetbrains.com/phpstorm/">PHPStorm</a>, <a
           href="https://www.jetbrains.com/webstorm/">WebStorm</a>, <a href="https://www.jetbrains.com/datagrip/">DataGrip</a></li>

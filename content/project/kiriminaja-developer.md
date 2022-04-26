@@ -1,6 +1,6 @@
 ---
 title: "KiriminAja Developer Docs"
-description: "Dokumentasi lengkap API kiriminaja"
+description: "Developer Partner integration full documentations using NuxtJS"
 url: "https://developer.kiriminaja.com"
 url_text: "developer.kiriminaja.com"
 img: "/img/ss-kiriminaja-dev.png"

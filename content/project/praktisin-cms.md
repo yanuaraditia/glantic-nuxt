@@ -1,6 +1,6 @@
 ---
-title: "Praktisin Order Management"
-description: "Kelola ordermu, amankan cashflowmu"
+title: "Praktisin"
+description: "Prepare core engine to start the first development usages"
 url: "https://praktisin.com"
 url_text: "praktisin.com"
 img: "/img/ss-praktisin.png"

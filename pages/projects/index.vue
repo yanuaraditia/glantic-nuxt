@@ -4,16 +4,24 @@
       <h1>Creations and projects</h1>
       <p class="lead text-muted">Here are some of my past works from personal projects and open source ones.</p>
       <div class="mt-5">
-        <div class="project">
-          <div class="project-item" v-for="project of projects" :key="project.slug">
-            <div class="link-top card project-list border-0 overflow-hidden main-radius">
-              <img :src="project.img" alt="">
-              <div class="card-body text-white p-lg-4 text-lg-center align-items-center d-flex">
+        <div class="project row g-3">
+          <div class="project-item col-lg-6 mb-3" v-for="project of projects" :key="project.slug">
+            <div class="link-top card bg-transparent border-0 overflow-hidden main-radius">
+              <div class="top-img bg-primary overflow-hidden bg-opacity-10 main-radius">
+                <img :src="project.img" alt="" style="transform: translateX(1rem) translateY(1rem)">
+              </div>
+              <div class="card-body p-lg-4 align-items-center d-flex">
                 <div class="w-100">
-                  <h4 class="card-title" v-html="project.title"></h4>
+                  <h4 class="card-title h5" v-html="project.title"></h4>
                   <p class="card-text" v-html="project.description"></p>
                   <div class="text-primary mb-2">
-                    <span v-html="project.url_text"></span>
+                    <span>Visit website</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <line x1="15" y1="16" x2="19" y2="12"></line>
+                      <line x1="15" y1="8" x2="19" y2="12"></line>
+                    </svg>
                   </div>
                   <span v-for="tag in project.tags" v-html="tag" class="badge bg-light bg-opacity-25 me-1"></span>
                 </div>

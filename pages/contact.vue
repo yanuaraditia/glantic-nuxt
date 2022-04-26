@@ -10,7 +10,7 @@
           <li class="mb-3">LinkedIn - <a href="//linkedin.com/in/yanuaraditia">https://linkedin.com/in/yanuaraditia</a></li>
           <li class="mb-3">Telegram - <a href="//t.me/yanuaraditia">https://t.me/yanuaraditia</a></li>
         </ul>
-        <p class="lead mb-5">View my resume online via <a href="https://resume.io/r/jEMSdeCkn">resume.io</a>. Head over to my <nuxt-link to="contact">contact page</nuxt-link> to reach out.</p>
+        <p class="lead mb-5">View my resume online via <a href="https://resume.io/r/jEMSdeCkn">resume.io</a>.</p>
       </div>
     </div>
   </section>

@@ -1,7 +1,7 @@
 <template>
   <section class="py-7 pb-lg-2 front-banner">
     <div class="cupertino"></div>
-    <div class="container px-3 px-lg-4 pt-xl-6 text-lg-center">
+    <div class="container px-3 px-lg-4 pt-xl-6 text-center">
       <nuxt-link to="/about" class="full-radius d-inline-flex bg-primary bg-opacity-10 meee overflow-hidden">
         <img src="~/assets/my-memoji.png" alt="darth vader" style="max-width: 210px">
       </nuxt-link>
@@ -11,7 +11,7 @@
           <a href="//kiriminaja.com">KiriminAja</a>. Lives in Yogyakarta, Indonesia.
         </p>
       </div>
-      <div class="row g-3 justify-content-lg-center">
+      <div class="row g-3 justify-content-center">
         <div class="col-auto">
           <a href="//linkedin.com/in/yanuaraditia" class="bg-primary bg-opacity-10 p-2 full-radius d-inline-flex">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="currentColor" fill-opacity="0.2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="4" y="4" width="16" height="16" rx="2" /><line x1="8" y1="11" x2="8" y2="16" /><line x1="8" y1="8" x2="8" y2="8.01" /><line x1="12" y1="16" x2="12" y2="11" /><path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg>
