@@ -1,13 +1,13 @@
 <template>
   <section class="py-7 pb-lg-2 front-banner">
     <div class="cupertino"></div>
-    <div class="container px-3 px-lg-4 text-lg-center">
-      <nuxt-link to="/about" class="full-radius d-inline-flex meee overflow-hidden">
-        <img src="~/assets/me.jpg" alt="darth vader" style="max-width: 210px">
+    <div class="container px-3 px-lg-4 pt-xl-6 text-lg-center">
+      <nuxt-link to="/about" class="full-radius d-inline-flex bg-primary bg-opacity-10 meee overflow-hidden">
+        <img src="~/assets/my-memoji.png" alt="darth vader" style="max-width: 210px">
       </nuxt-link>
       <h1 class="mt-3 h1">Halo! I'm Yanuar Aditia.</h1>
       <div class="mx-auto px-lg-5" style="max-width: 700px">
-        <p class="lead">Software engineer at logistic technology startup
+        <p class="lead">Development Lead at logistic technology startup
           <a href="//kiriminaja.com">KiriminAja</a>. Lives in Yogyakarta, Indonesia.
         </p>
       </div>

@@ -1,11 +1,11 @@
 <template>
-  <section class="py-7">
-    <div class="container px-3 px-lg-4">
+  <section class="py-7 reader-section">
+    <div class="container px-3 px-lg-4 pt-xl-6">
       <h1>Creations and projects</h1>
-      <p>Here are some of my past works from personal projects and open source ones.</p>
+      <p class="lead text-muted">Here are some of my past works from personal projects and open source ones.</p>
       <div class="mt-5">
-        <div class="row project g-3">
-          <div class="col-lg-6" v-for="project of projects" :key="project.slug">
+        <div class="project">
+          <div class="project-item" v-for="project of projects" :key="project.slug">
             <div class="link-top card project-list border-0 overflow-hidden main-radius">
               <img :src="project.img" alt="">
               <div class="card-body text-white p-lg-4 text-lg-center align-items-center d-flex">

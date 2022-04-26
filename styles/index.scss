@@ -20,3 +20,8 @@ html {
 .nuxt-link-exact-active.nav-link {
   color: $primary!important;
 }
+.reader-section {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}

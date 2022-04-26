@@ -1,11 +1,11 @@
 <template>
-  <section class="py-7">
-    <div class="container px-3 px-lg-4">
-      <h1>Blog posts</h1>
-      <p>Sometimes I write about web development, other times about random interesting stuff.</p>
+  <section class="py-7 reader-section">
+    <div class="container px-3 px-lg-4 pt-xl-6">
+      <h1>An ordinary story</h1>
+      <p class="lead text-muted">Sometimes I write about web development, other times about random interesting stuff.</p>
       <div class="mt-5">
-        <div class="row g-4">
-          <div class="col-lg-4" v-for="post of posts" :key="post.slug">
+        <div class="blog">
+          <div class="blog-item" v-for="post of posts" :key="post.slug">
             <div class="card blog-card border-0 bg-opacity-50 link-top mb-4" v-bind:class="[($nuxt.$colorMode.preference === 'dark' ? 'bg-dark' : 'bg-light')]">
               <div class="card-body p-lg-4" style="min-height: 220px">
                 <h3 class="card-title" v-html="post.title"></h3>
