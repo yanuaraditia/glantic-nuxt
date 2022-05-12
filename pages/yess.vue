@@ -24,6 +24,11 @@ export default {
       when_start: 0
     }
   },
+  head() {
+    return {
+      title: "Thank You ❤️"
+    }
+  },
   computed: {
     elapsed_time() {
       this.time_elapsed()
