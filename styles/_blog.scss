@@ -1,0 +1,7 @@
+.blurred {
+  transition: all .2s ease-in-out;
+  &:not(:hover) {
+    opacity: .1;
+    filter: blur(3px);
+  }
+}
