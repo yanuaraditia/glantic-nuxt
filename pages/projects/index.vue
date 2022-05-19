@@ -14,8 +14,8 @@
                 <div class="w-100">
                   <h4 class="card-title h5" v-html="project.title"></h4>
                   <p class="card-text" v-html="project.description"></p>
-                  <div class="text-primary mb-2">
-                    <span>Visit website</span>
+                  <div class="text-primary fw-medium mb-2">
+                    <span>Read case</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                       <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -26,7 +26,7 @@
                   <span v-for="tag in project.tags" v-html="tag" class="badge bg-light bg-opacity-25 me-1"></span>
                 </div>
               </div>
-              <a :href="project.url"></a>
+              <a :href="`/projects/${project.slug}`"></a>
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@
 export default {
   async asyncData({ $content }) {
     const projects = await $content("project")
-      .sortBy('created_at','desc')
+      .sortBy('date','desc')
       .fetch();
 
     return {

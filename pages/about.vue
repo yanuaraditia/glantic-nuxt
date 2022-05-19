@@ -14,21 +14,28 @@
       <p class="lead mb-5">View my resume online via <a href="https://resume.io/r/jEMSdeCkn">resume.io</a>. Head over to my <nuxt-link to="contact">contact page</nuxt-link> to reach out.</p>
       <h4>Work Experience</h4>
       <ul class="lead mb-5">
-        <li class="mb-1">Development Lead at <a href="//kiriminaja.com">KiriminAja</a> (April 2022 - present)</li>
-        <li class="mb-1">Backend Engineer at KiriminAja (May 2021 - March 2022)</li>
-        <li class="mb-1">Full-Stack Developer at KiriminAja (November 2020 - May 2021)</li>
-        <li class="mb-1">Full-Stack Developer at TRIES (February 2020 - November 2020)</li>
-        <li class="mb-1">Laboratory Assistant at Universitas Amikom Yogyakarta (September 2018 - January 2019)</li>
+        <li class="mb-1">Development Lead at <a href="//kiriminaja.com" class="fw-medium">KiriminAja</a> <small class="text-muted" style="font-size: .75rem">(Apr 2022 - present)</small></li>
+        <li class="mb-1">Backend Engineer at <a href="//kiriminaja.com" class="fw-medium">KiriminAja</a> <small class="text-muted" style="font-size: .75rem">(May 2021 - Mar 2022)</small></li>
+        <li class="mb-1">Full-Stack Developer at <a href="//kiriminaja.com" class="fw-medium">KiriminAja</a> <small class="text-muted" style="font-size: .75rem">(Nov 2020 - May 2021)</small></li>
+        <li class="mb-1">Full-Stack Developer at <a href="//tries.co.id" class="fw-medium">Tries Digital Indonesia</a> <small class="text-muted" style="font-size: .75rem">(Feb 2020 - Nov 2020)</small></li>
+        <li class="mb-1">Laboratory Assistant at Universitas Amikom Yogyakarta <small class="text-muted" style="font-size: .75rem">(Sep 2018 - Jan 2019)</small></li>
       </ul>
-      <h4>Currently Using</h4>
+      <h4>Hardware</h4>
       <ul class="lead mb-5">
-        <li class="mb-1"><strong>Notebook:</strong> <a href="https://www.apple.com/id/macbook-pro-13/">MacBook Pro 2020</a> +
-          <a href="https://www.apple.com/id/macos/monterey/">MacOS Monterey</a></li>
-        <li class="mb-1"><strong>Hosting:</strong> <a href="https://cloud.google.com/">Google Cloud</a>, <a href="https://www.netlify.com/">Netlify</a>, <a href="https://vercel.com/">Vercel</a></li>
-        <li class="mb-1"><strong>IDE:</strong> <a href="https://www.jetbrains.com/phpstorm/">PHPStorm</a>, <a
-          href="https://www.jetbrains.com/webstorm/">WebStorm</a>, <a href="https://www.jetbrains.com/datagrip/">DataGrip</a></li>
-        <li class="mb-1"><strong>Management:</strong> <a href="https://www.atlassian.com/software/jira">Jira Software</a>,
-          <a href="https://www.atlassian.com/software/confluence">Confluence</a></li>
+        <li class="mb-1"><span class="fw-medium">Coding PC:</span> <a href="https://www.apple.com/id/macbook-pro-13/">M1 MacBook Pro 13" 2020</a></li>
+        <li class="mb-1"><span class="fw-medium">Phone:</span> <a href="https://www.mi.co.id/id/product/redmi-note-10/">Redmi Note 10</a></li>
+        <li class="mb-1"><span class="fw-medium">Earphone:</span> <a href="http://www.eggeltech.com/home/24-eggel-energy-buds-pro.html">Eggel Energy Buds Pro</a></li>
+      </ul>
+      <h4>Tools</h4>
+      <ul class="lead mb-5">
+        <li class="mb-1">This website is hosted on <a href="//netlify.com">Netlify</a> and uses the <a href="//nuxtjs.org">Nuxt</a> framework</li>
+        <li class="mb-1"><span class="fw-medium">Coding:</span> <a href="//jetbrains.com">JetBrains Family</a></li>
+        <li class="mb-1"><span class="fw-medium">Terminal:</span> <a href="https://support.apple.com/en-gb/guide/terminal/welcome/mac">Mac Terminal</a></li>
+        <li class="mb-1"><span class="fw-medium">Notes:</span> <a href="https://www.atlassian.com/software/confluence">Confluence</a></li>
+        <li class="mb-1"><span class="fw-medium">Task Management:</span> <a href="https://www.atlassian.com/software/jira">Jira</a></li>
+        <li class="mb-1"><span class="fw-medium">Music:</span> <a href="//spotify.com">Spotify</a>
+          <iframe class="main-radius mt-2" src="https://open.spotify.com/embed/track/5n8YOy9hd8o4d3OHteTVCJ?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </li>
       </ul>
       <p class="lead">Read more about my experiences on <a href="//linked.in/in/yanuaraditia">LinkedIn</a></p>
     </div>
