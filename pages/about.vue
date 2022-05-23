@@ -3,15 +3,12 @@
     <div class="container px-3 px-lg-4 pt-xl-6">
       <img src="~/assets/teams/wefie-photos.png" class="img-fluid w-100 mt-3" alt="">
       <p class="lead mt-3 mb-5 fw-medium text-muted">Hi there! My name is <span class="fw-medium">Yanuar Aditia</span>, and Yanuar in short.</p>
-      <h1 class="h4">About Myself</h1>
-      <p class="lead">I am a software engineer specialized in backend development, creating web based applications from management system and core engine, to monolith and micro-services.</p>
-      <p class="lead">Born and raised in 🇮🇩 Kebumen, Indonesia. Currently based on Yogyakarta, Indonesia. Majored my bachelor's degree on Informatics at
-        <a href="//amikom.ac.id">Universitas Amikom Yogyakarta</a> on 2019. Currently work as a Development Lead on <a
-          href="//kiriminaja.com">KiriminAja</a>. Previously doing full-stack development on <a href="//tries.co.id">Tries Digital Indonesia</a>.
-      </p>
-      <p class="lead">Started programming on backend development creating an internal management system for my company project using
-        <a href="//laravel.org">Laravel</a> and <a href="https://voyager.devdojo.com/">Voyager</a>. After 11 month I decide to work on new team as backend developer, which then focusing on project management and continue develop with until present day.</p>
-      <p class="lead mb-5">View my resume online via <a href="https://resume.io/r/jEMSdeCkn">resume.io</a>. Head over to my <nuxt-link to="contact">contact page</nuxt-link> to reach out.</p>
+      <h1 class="h4">About Me</h1>
+      <div style="text-align: justify">
+        <p class="lead">My name is Yanuar Aditia. Born and raised in Kebumen, Central Java, and currently reside in Yogyakarta. I received my bachelor’s degree in informatics engineering from the University of Amikom Yogyakarta, with a focus on database and web development.</p>
+        <p class="lead">During my academic years, I participated in various activities to increase my skills in full-stack web development, including winning the AMICTA competition. My project focuses on how to integrate apps into the "internet of things" to handle a parking lot availability issue. Since February 2020, I've been working as a full-stack web developer for TRIES DIGITAL. I was in charge of creating back-end website applications as well as front-end website architecture. As a backend developer, I was able to enhance my skills in the Laravel framework, Rest API, and MySQL. During the instability of the company's performance in November 2020, I transferred to my current company name KIRIMINAJA as backend engineer, where I am responsible for researching existing back-end frameworks, offering functional changes as needed, creating and delivering new platforms, and resolving current tasks with teammates. </p>
+        <p class="lead">As a developer who is interested in many new things, I plan to add focus to Product Management and UI / UX development. Furthermore I plan to experiment with new things that are relevant to my current interests. </p>
+      </div>
       <h4>Work Experience</h4>
       <ul class="lead mb-5">
         <li class="mb-1">Development Lead at <a href="//kiriminaja.com" class="fw-medium">KiriminAja</a> <small class="text-muted" style="font-size: .75rem">(Apr 2022 - present)</small></li>

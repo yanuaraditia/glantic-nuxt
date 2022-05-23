@@ -2,15 +2,15 @@
   <section class="py-7 pb-lg-2 front-banner">
     <div class="cupertino"></div>
     <div class="container px-3 px-lg-4 pt-xl-6 text-center">
-      <nuxt-link to="/about" class="full-radius d-inline-flex bg-gradient bg-opacity-10 overflow-hidden">
-        <div class="bg-dark bg-opacity-10">
-          <img src="~/assets/8d60c665c4cfe35a91c79ef99bff8f31-sticker.png" alt="darth vader" style="max-width: 16rem; transform: scale(1.1)">
-        </div>
+      <nuxt-link to="/about" class="d-inline-flex overflow-hidden position-relative" style="border-radius: 1000px 1000px 0 0">
+        <div class="full-radius bg-gradient bg-opacity-10 overflow-hidden position-absolute w-100 h-100" style="top: 0; left: 0"></div>
+        <div class="bg-primary bg-opacity-10 position-absolute full-radius w-100 h-100" style="top: 0; left: 0"></div>
+        <img src="~/assets/477fde2f521ca4ee4384b39d236f6acf-sticker.png" alt="darth vader" style="max-width: 16rem; transform: scale(1.1) translateY(5px)">
       </nuxt-link>
       <h1 class="mt-3 h1">Halo! I'm Yanuar Aditia.</h1>
       <div class="mx-auto px-lg-5" style="max-width: 700px">
-        <p class="lead">Development Lead at logistic technology startup
-          <a href="//kiriminaja.com">KiriminAja</a>. Lives in Yogyakarta, Indonesia.
+        <p class="lead">Passionate back-end web development with +2 years of experience for
+          <a href="//kiriminaja.com">KiriminAja.</a>
         </p>
       </div>
       <div class="row g-3 justify-content-center">
