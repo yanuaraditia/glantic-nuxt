@@ -26,7 +26,7 @@
                   <span v-for="tag in project.tags" v-html="tag" class="badge bg-light bg-opacity-25 me-1"></span>
                 </div>
               </div>
-              <a :href="`/projects/${project.slug}`"></a>
+              <nuxt-link :href="`/projects/${project.slug}`"></nuxt-link>
             </div>
           </div>
         </div>
